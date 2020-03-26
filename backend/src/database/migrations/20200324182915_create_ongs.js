@@ -9,7 +9,7 @@ exports.up = function (knex) {
     });
 };
 
-// Método utilizado para desfazer alterações caso o método acima dê algum tipo de erro.
+//Método utilizado para desfazer alterações caso o método acima dê algum tipo de erro.
 exports.down = function (knex) {
     return knex.schema.dropTable('ongs');
 };

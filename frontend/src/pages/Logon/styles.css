@@ -1,0 +1,30 @@
+.logon-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    /*Ocupa a altura toda */
+    margin: 0 auto;
+    /*Conteúdo centralizado*/
+    display: flex;
+    /*Itens um ao lado do outro*/
+    /*flex-direction: column; Alinha abaixo do outro*/
+    align-items: center;
+    /*Alinha os itens verticalmente no centro*/
+    justify-content: space-between;
+}
+
+.logon-container section.form {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+}
+
+.logon-container section.form form {
+    margin-top: 100px;
+}
+
+.logon-container section.form form h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+

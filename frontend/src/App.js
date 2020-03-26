@@ -1,25 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Routes from './routes';
+
+import './global.css';
 
 function App() {
+  // const [counter, setCounter] = useState(0); Começa como 0. Utilizado para alterar estados das variáveis dentro do React.
+
+  //Array [valor do counter, função de atualização]
+
+  // function increment() {
+  //   setCounter(counter + 1);
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello OmniStack ;)
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes />
   );
 }
 
